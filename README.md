@@ -1,5 +1,4 @@
-# JobSkill Project  And Bus Management
-# 1. 💼 JobSkill – JSP Job Portal Project
+#  💼 JobSkill – JSP Job Portal Project
 
 JobSkill is a job portal web application developed using Java (JSP), HTML, CSS, JavaScript, Bootstrap, and MySQL.
 
@@ -21,7 +20,7 @@ JobSkill/
 │   ├── ...
 │   └── WEB-INF/
 │       └── web.xml
-├── jobskill.sql
+├── jobskill.zip
 ├── README.md
 
 ````
@@ -33,7 +32,7 @@ JobSkill/
 | Software        | Version / Notes                        |
 |-----------------|----------------------------------------|
 | Java JDK        | 8 or higher                            |
-| Apache Tomcat   | 8.5 / 9.0                              |
+| Apache Tomcat   | 8.5 / 10.0                              |
 | MySQL Server    | 5.7 or higher                          |
 | MySQL Workbench | Optional, for database GUI             |
 | Eclipse IDE     | Optional, for developer use            |
@@ -65,7 +64,7 @@ JobSkill/
 1. Open MySQL Workbench
 2. Go to: `Server → Data Import`
 3. Select: `Import from Self-Contained File`
-4. File: Select `jobskill.sql`
+4. File: Select `jobskill.zip extract`
 5. Default Target Schema: `jobskill`
 6. ✅ Check: "Create Schema if it does not exist"
 7. Click `Start Import`
@@ -113,7 +112,7 @@ In your JSP config file (`dbconfig.jsp` or similar):
 1. Open MySQL Workbench
 2. Go to: `Server → Data Import`
 3. Select: `Import from Self-Contained File`
-4. File: Choose `jobskill.sql`
+4. File: Choose `jobskill.zip and extract`
 5. Schema Name: `jobskill`
 6. ✅ Check: “Create Schema if it does not exist”
 7. Click `Start Import`
